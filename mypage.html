@@ -26,6 +26,10 @@ Current Outcome : <br/> Any change I make in my local Windows PC repository and 
 automatically job will run to pull the new files from github repository and changes are deployed.</br>
 8. I created a post-commit hook in my local repository (Windows-PC) so that once I commit in my local repository, push is done automatically to github repository. </br>
 9. Using ngrok, I created a tunnel to host my webpage publicly, so that anyone with internet could access my webpage. </br>
+</br>
+New Setup:</br>
+10. Point no 7 was modified to reduce CPU & RAM Usage. Now Jenkins job will not keep an eye on github repository. Instead a post-commit in git in local repository was added so that 
+it triggers the jenkins job automatically after commit and push was done. </br>
 </br> <hr> </br>
 
 <center><img src="lwindia.JPG"><img src="iiec.jpg" height="235px" width="235px"></center>
